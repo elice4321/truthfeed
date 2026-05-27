@@ -8,6 +8,11 @@ const { fetchAndStoreArticles } = require('./services/rss')
 const articlesRoute = require('./routes/articles')
 const app = express()
 const PORT = process.env.PORT || 3000
+const fetchLinkRoute = require('./routes/fetchLink')
+const transcribeRoute = require('./routes/transcribe')
+
+app.use('/api/fetch-link', fetchLinkRoute)
+app.use('/api/transcribe', transcribeRoute)
 
 app.use(cors())
 app.use(express.json())
