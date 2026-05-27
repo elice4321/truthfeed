@@ -35,7 +35,7 @@ export const strings = {
     todayChecks: 'आज जाँचे गए फॉरवर्ड',
     misinformation: 'पकड़ी गई अफवाहें',
     verifiedNews: 'आज की सत्यापित खबरें',
-    checkPlaceholder: 'कोई भी मैसेज, खबर या दावा यहाँ पेस्ट करें...',,
+    checkPlaceholder: 'कोई भी मैसेज, खबर या दावा यहाँ पेस्ट करें...',
     speakInstead: 'बोलकर जाँचें',
     listening: 'सुन रहे हैं...',
     checkNow: 'अभी जाँचें',
