@@ -29,7 +29,7 @@ export default function Check() {
     }
 
     const recognition = new SpeechRecognition()
-    recognition.lang = 'hi-IN' // works for both Hindi and English
+    recognition.lang = lang === 'hi' ? 'hi-IN' : 'en-IN' // works for both Hindi and English
     recognition.interimResults = false
     recognition.maxAlternatives = 1
 
