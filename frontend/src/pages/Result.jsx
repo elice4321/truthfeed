@@ -38,7 +38,7 @@ export default function Result() {
     UNVERIFIED: 'bg-purple-50 border-purple-200',
   }[verdict] || 'bg-purple-50 border-purple-200'
 
-  const shareText = `I checked this on TruthFeed:\n\n"${originalText}"\n\nVerdict: ${verdict}\n${reason}\n\nCheck it yourself: https://truthfeed.vercel.app`
+  const shareText = `I verified this on TruthFeed — Know the truth first.\n\n"${originalText}"\n\nVerdict: ${verdict}\n${reason}\n\nVerify yourself: https://truthfeed-blush.vercel.app`
 
   function handleShare() {
     if (navigator.share) {
